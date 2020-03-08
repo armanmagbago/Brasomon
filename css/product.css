@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap');
+@font-face{
+    src: url(../fonts/CF_Leather/CF_Leather.ttf);
+    font-family: CF_Leather;
+}
+body{
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.658), rgba(0,0,0,0.652)),url(../img/dark-background-1.png);
+    color: goldenrod;
+    font-size: 2rem;
+}
+.products{
+    position: relative;
+    padding-top: 3%;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.658), rgba(0,0,0,0.652)),url(../img/background.jpg);
+}
+.navbar-dark .navbar-nav .nav-link,:active{
+    color: goldenrod;
+}

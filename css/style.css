@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap');
+@font-face{
+    src: url(../fonts/CF_Leather/CF_Leather.ttf);
+    font-family: CF_Leather;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    background: url(../img/bk.jpg);
+    background-size: cover;
+}
+.navbar {
+    text-transform: uppercase;
+    font-weight: 70;
+    font-size: .9rem;
+    letter-spacing: .1rem;
+}
+.navbar-brand img {
+    height: 2rem;
+}
+.navbar-nav li {
+    padding-right: .6rem;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: black;
+    padding-top: .3rem;
+}
+.navbar-dark .navbar-nav .nav-link,:active{
+    color:goldenrod;
+}
+.home-inner{
+    padding: 30%;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.658), rgba(0,0,0,0.652)),url(../img/8.jpg);
+}
+.caption {
+    width: 100%;
+    max-width: 100%;
+    position: absolute;
+    top: 50%;
+    z-index: 1;
+    color:goldenrod;
+    text-transform: uppercase;
+}
+.caption h1{
+    font-size: 3.8rem;
+    font-weight: 700;
+    letter-spacing: .3rem;
+    text-shadow: .1rem .1rem .8rem black;
+    padding-bottom: 1rem;
+}
+.caption h3{
+    font-size: 2rem;
+    padding-bottom: 1.6rem;
+}
+.btn-lg{
+    border-width: medium;
+    padding: .6rem 1.3rem;
+    font-size: 1.1rem;
+    color: goldenrod;
+}
+
+.products{
+    padding-top: 2rem;
+    height: 25rem;
+    width: 25rem;
+}
+.con{
+    text-align: center;
+}
+.contact{
+    margin-top: 10px;
+    height: 50px;
+    width: 50px;
+}
+
+.service{
+    text-align: center;
+}
+.foot{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    height: 8rem;
+    width: 6rem;
+}
+.btn-secondary btn-md{
+    background-color:goldenrod;
+
+}
+.footer-footer{
+    text-align: center;
+    color: goldenrod;
+}
+.image{
+    width: .7rem;
+}
+.shopee{
+    width: 7rem;
+}
